@@ -4,7 +4,7 @@ int ledPinYellow = 1;
 int ledPinGreen = 0;
 
 void setup() {
-  // Set the pins 1, 2, 3 as output
+  // Set the pins 0, 1, 2 as output
   pinMode(ledPinRed, OUTPUT);
   pinMode(ledPinYellow, OUTPUT);
   pinMode(ledPinGreen, OUTPUT);

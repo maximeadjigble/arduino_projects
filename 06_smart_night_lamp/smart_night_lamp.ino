@@ -70,9 +70,7 @@ void loop() {
   Serial.print(pwmGreen);
   Serial.print(" ");
   Serial.println(pwmBlue);
-  
   delay(15);
-  
 }
 
 void changeColor(int red, int green, int blue){
